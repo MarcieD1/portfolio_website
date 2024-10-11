@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Software Engineer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Custom styles -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4">
+                        <span class="font-semibold text-gray-500 text-lg">AfroCloudQueen</span>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <a href="#about" class="py-4 px-2">About</a>
+                    <a href="#projects" class="py-4 px-2">Projects</a>
+                    <a href="#contact" class="py-4 px-2">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-purple-500 text-white py-20">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">Hi, I'm Marcia Desmornes</h1>
+            <p class="text-lg mb-8">A Software Engineer specializing in backend development.</p>
+            <a href="#projects" class="bg-white text-blue-500 px-6 py-3 rounded">View My Work</a>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-4">About Me</h2>
+            <div class="flex items-center">
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/jDb6g02/Ibiv-E9-HA-400x400.jpg" alt="Ibiv-E9-HA-400x400" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+            </div>
+            <p class="text-gray-600">
+                Software Engineer specializing in backend development and database management. Proficient in Node.js, Express, MongoDB, and AWS. Skilled in designing scalable server-side applications. Passionate about optimizing database performance and ensuring data integrity.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-2">Event Management System</h3>
+                    <p class="text-gray-600 mb-4">
+                        A full-stack application for managing events, built with Node.js,
+                        Express, and MongoDB.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-500">Demo</a>
+                        <a href="#" class="text-blue-500">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-2">Database Analytics Platform</h3>
+                    <p class="text-gray-600 mb-4">
+                        A platform for monitoring and analyzing database performance metrics.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-500">Demo</a>
+                        <a href="#" class="text-blue-500">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8">Contact</h2>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <form>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-2">Name</label>
+                        <input type="text" class="w-full px-3 py-2 border rounded">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-2">Email</label>
+                        <input type="email" class="w-full px-3 py-2 border rounded">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-2">Message</label>
+                        <textarea class="w-full px-3 py-2 border rounded"></textarea>
+                    </div>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

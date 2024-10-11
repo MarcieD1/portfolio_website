@@ -1,0 +1,19 @@
+/* styles.css */
+body {
+    font-family: 'Aptos', sans-serif;
+}
+
+a {
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2563eb; /* Tailwind's blue-500 */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
